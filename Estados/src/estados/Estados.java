@@ -16,7 +16,7 @@ public class Estados {
         }
 
         proceso_dos.start();
-        proceso_dos.stop(); 
+        proceso_dos.start(); 
         
         try {
             proceso_dos.sleep(1000);
